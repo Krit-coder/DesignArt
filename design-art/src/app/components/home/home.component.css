@@ -1,0 +1,78 @@
+/* Reset default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Apply consistent box-sizing across all elements */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Hero Banner Styles */
+  .hero-banner {
+    background: url('/assets/hero-banner.jpg') no-repeat center center/cover; /* Update with your image path */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-content .cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-content .cta-button:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Introduction Section Styles */
+  .introduction {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .introduction h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .introduction p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
